@@ -60,8 +60,14 @@ html,body{
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 770px) {
     .container{
         flex-wrap: wrap;
+        margin-left: 30px;
+    }
+    .img{
+        display: block;
+        margin: 0 auto;
+        scale: 0.50;
     }
   }
